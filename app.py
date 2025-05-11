@@ -59,7 +59,6 @@ if uploaded_file is not None:
     
     # Display prediction and confidence
     st.write(f"**Predicted Class**: {class_label}")
-    st.write(f"**Confidence**: {confidence[0]:.2f}")
 
 # To run the app, save the file and use the following command in the terminal:
 # streamlit run app.py
