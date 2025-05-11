@@ -42,7 +42,7 @@ def make_prediction(model, img, class_names):
     return class_label, prediction[0]
 
 # Streamlit interface
-st.title("Bone Fracture Detection")
+st.title("Bone Fracture Classfication")
 st.write("Upload an X-ray image to detect if there is a fracture.")
 
 # File uploader
