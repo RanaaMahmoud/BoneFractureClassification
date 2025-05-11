@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 # Load the saved model
-model_path = 'E:/MediVision-AI/Bone Fracture Classification_streamlit/bonefracture_classification_model (1).h5'
+model_path = 'model.h5'
 model = tf.keras.models.load_model(model_path)
 
 def load_and_preprocess_image(img, target_size=(180, 180)):
